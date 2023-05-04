@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"discord.py" = "*"
+asyncio = "*"
+requests = "*"
+beautifulsoup4 = "*"
+python-dotenv = "*"
+transformers = "*"
+tensorflow = "*"
+notebook = "*"
+pandas = "*"
+nltk = "*"
+datasets = "*"
+scikit-learn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
